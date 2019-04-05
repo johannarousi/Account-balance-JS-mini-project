@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+body {
+  background-image: linear-gradient(90deg, #b1d6f8, #ca7bee);
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 2% 0;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+select {
+  height: 37px;
+}
+
+.add-button {
+  background-color: white;
+  border-radius: 2px;
+}
+
+.add-button:hover {
+  background-color: #6fa8f3;
+  color: white;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+div {
+  border: solid 2px black;
+  padding: 3%;
+}
+
+.income-div,
+.expense-div {
+  width: 46%;
+  line-height: 1.8;
+}
+
+.income-expense {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+}
+footer {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 2%;
+}
